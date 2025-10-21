@@ -92,7 +92,7 @@ sjzxd.exe -mk
 
 ![image-20251021093736995](images/image-20251021093736995.png)
 
-设计逻辑：由于没有后端的数据来源，数据来源于 [DeltaForcePrice](https://github.com/orzice/DeltaForcePrice)  进行二次开发，由于没有后端的数据来源，**因此程序的核心原则是无后端依赖，仅依赖其 `price.json` 作为唯一数据源**。由于上游更新是10分钟一次，而我们不可能十分钟运行一次，所以该数据仅供参考。
+设计逻辑：由于没有后端的数据来源，数据来源于 [DeltaForcePrice](https://github.com/orzice/DeltaForcePrice)  进行二次开发，由于没有后端的数据来源，**因此程序的核心原则是无后端依赖，仅依赖其 `price.json` 作为唯一数据源**。由于上游更新是10分钟一次，而我们不可能十分钟运行一次，所以该数据仅供参考，数据全部以官方为准。
 
 
 
